@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "kitten";
+    src: url("../view/fonts/BebasNeue-Regular.woff") format("woff"); /* pogledati komentar za vezan uz linkove na pocetku game.php */
+}
+
+body{
+    background-color: rgba(132,25,25,255);
+}
+
+#error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+#error-message p {
+    font-family: 'kitten', "sans-serif";
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+    color:#DDD;
+}
+
+.loginRegister-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(126,2,7,255);
+    border-radius: 10px;
+    box-shadow:  8px 8px 55px rgba(0, 0, 0, 0.6);
+    margin-top: 40px;
+}
+
+.exploding-kittens-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exploding-kittens-logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-form input, 
+.login-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.register-form {
+    margin-top: 20px;
+}
+
+.login-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title img {
+    width: 60%;
+    height: 50%;
+}
+
+.returnBack {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.returnBack a{
+    position: absolute;
+    right: 7%;
+    color: white;
+}
+  
+.button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: kitten, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-top: 10px;
+    height: 48px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    font-size: 26px;
+}
+  
+.button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
