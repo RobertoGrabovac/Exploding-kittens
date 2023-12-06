@@ -33,4 +33,4 @@ Ovaj projekt prati MVC strukturu.
 ## NAPOMENA
 - baza podataka nalazi se na rp2 serveru, a zbog njezine privatnosti igru nije moguće pokrenuti na vlastitom računalu nakon preuzimanja repozitorija
 - za dodatne upute o strukturi baze otići na `app/database/README.md`
-- međutim, za pokretanje fali jedino ispunjavanje retka 17 u app/database/db.class podacima o odgovarajućoj bazi koju će igra koristiti tijekom svog izvršavanja
+- međutim, za pokretanje fali jedino ispunjavanje retka `17` u `app/database/db.class` podacima o odgovarajućoj bazi koju će igra koristiti tijekom svog izvršavanja
