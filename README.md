@@ -1,5 +1,5 @@
 # Exploding-kittens
-Projekt iz kolegija Računarski praktikum 2 čiji je rezultat igra nastala po uzoru na vrlo popularnu Exploding kittens.
+Projekt iz kolegija Računarski praktikum 2 čiji je rezultat igra nastala po uzoru na vrlo popularnu Exploding kittens. Video jedne partije na kojem je prikazana većina funkcionalnosti u igri može se vidjeti [ovdje](https://drive.google.com/file/d/1BHYNXl7HT4C8yyQZt-wjM93BcfeYrx9B/view?usp=drive_link).
 
 ## Autori
 
